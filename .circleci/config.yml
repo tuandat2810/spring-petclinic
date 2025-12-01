@@ -19,7 +19,7 @@ jobs:
   build_and_test:
     # Môi trường thực thi, ở đây là một Docker image có cài sẵn Java 11.
     docker:
-      - image: cimg/openjdk:25.0
+      - image: cimg/openjdk:9:0
 
     # Các bước thực thi tuần tự trong job
     steps:
